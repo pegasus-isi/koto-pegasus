@@ -295,16 +295,16 @@ is `/home/user/workflows/runs/pegasus/run0014`.
 
     Your workflow has been started and is running in the base directory:
 
-    /home/ryantanaka/workflows/runs/ryantanaka/pegasus/koto-workflow/run0014
+    /home/user/workflows/runs/koto-workflow/run0014
 
     *** To monitor the workflow you can run ***
 
-    pegasus-status -l /home/ryantanaka/workflows/runs/ryantanaka/pegasus/koto-workflow/run0014
+    pegasus-status -l /home/user/workflows/runs/koto-workflow/run0014
 
 
     *** To remove your workflow run ***
 
-    pegasus-remove /home/ryantanaka/workflows/runs/ryantanaka/pegasus/koto-workflow/run0014
+    pegasus-remove /home/user/workflows/runs/koto-workflow/run0014
 
 This directory is the handle to the workflow instance
 and is used by Pegasus command line tools. Some useful tools to know about:
